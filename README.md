@@ -6,9 +6,6 @@ Rustlings is a collection of small exercises designed to get you used to reading
 
 ## Progress
 
-<details>
-<summary>Progress table</summary>
-
 | Section                | Description                                         | Progress |
 | ---------------------- | --------------------------------------------------- | -------- |
 | **00_intro**           | Basic introduction to Rustlings                     | ✅ 2/2   |
@@ -36,8 +33,6 @@ Rustlings is a collection of small exercises designed to get you used to reading
 | **22_clippy**          | Using the Clippy linter                             | 🔄 0/3   |
 | **23_conversions**     | Type conversions                                    | 🔄 0/5   |
 | **quizzes**            | Quizzes to test knowledge across sections           | 🔄 1/3   |
-
-</details>
 
 ## Resources
 
