@@ -19,8 +19,8 @@ Rustlings is a collection of small exercises designed to get you used to reading
 | **08_enums**           | Defining and using enums for type safety            | ✅ 3/3   |
 | **09_strings**         | String manipulation                                 | ✅ 4/4   |
 | **10_modules**         | Organizing code with modules                        | ✅ 3/3   |
-| **11_hashmaps**        | Using hash maps for key-value storage               | 🔄 0/3   |
-| **12_options**         | Working with the Option enum                        | 🔄 0/3   |
+| **11_hashmaps**        | Using hash maps for key-value storage               | ✅ 3/3   |
+| **12_options**         | Working with the Option enum                        | ☑️  1/3   |
 | **13_error_handling**  | Proper error handling in Rust                       | 🔄 0/6   |
 | **14_generics**        | Generic types and functions                         | 🔄 0/2   |
 | **15_traits**          | Defining shared behavior with traits                | 🔄 0/5   |
@@ -32,7 +32,7 @@ Rustlings is a collection of small exercises designed to get you used to reading
 | **21_macros**          | Creating and using macros                           | 🔄 0/4   |
 | **22_clippy**          | Using the Clippy linter                             | 🔄 0/3   |
 | **23_conversions**     | Type conversions                                    | 🔄 0/5   |
-| **quizzes**            | Quizzes to test knowledge across sections           | 🔄 1/3   |
+| **quizzes**            | Quizzes to test knowledge across sections           | ☑️  2/3   |
 
 ## Resources
 
