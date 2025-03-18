@@ -28,16 +28,12 @@ mod my_module {
 
     // TODO: Complete the function as described above.
     pub fn transformer(input: Vec<(String, Command)>) -> Vec<String> {
+        //
         let mut result = vec![];
         for i in input {
-            let (mut string, command) = i;
+            let (string, command) = i;
             match command {
-                Command::Append(num) => {
-                    for _ in 0..num {
-                        string.push_str("bar");
-                    }
-                    result.push(string);
-                }
+                Command::Append(num) => result.push(string + &"bar".repeat(num)),
                 Command::Trim => result.push(String::from(string.trim())),
                 Command::Uppercase => result.push(string.to_uppercase()),
             }
@@ -78,3 +74,13 @@ mod tests {
         );
     }
 }
+
+// TODO: AI wrote the following refactor - one to note:
+// input.into_iter().map(|(mut string, command)| match command {
+//     Command::Append(num) => {
+//         string.push_str(&"bar".repeat(num as usize));
+//         string
+//     }
+//     Command::Trim => string.trim().to_string(),
+//     Command::Uppercase => string.to_uppercase(),
+// }).collect()
