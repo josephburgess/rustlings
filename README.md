@@ -21,7 +21,7 @@ Rustlings is a collection of small exercises designed to get you used to reading
 | **10_modules**         | Organizing code with modules                        | ✅ 3/3   |
 | **11_hashmaps**        | Using hash maps for key-value storage               | ✅ 3/3   |
 | **12_options**         | Working with the Option enum                        | ✅ 3/3   |
-| **13_error_handling**  | Proper error handling in Rust                       | 🔄 0/6   |
+| **13_error_handling**  | Proper error handling in Rust                       | ✅ 6/6   |
 | **14_generics**        | Generic types and functions                         | 🔄 0/2   |
 | **15_traits**          | Defining shared behavior with traits                | 🔄 0/5   |
 | **16_lifetimes**       | Understanding Rust's lifetime system                | 🔄 0/3   |
